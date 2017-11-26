@@ -87,11 +87,11 @@ DEPS = {
     "com_google_googletest": {
         "rule": "http_archive",
         "urls" : [
-          "https://mirror.bazel.build/github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
-          "https://github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
+          "https://mirror.bazel.build/github.com/google/googletest/archive/9816b96a6ddc0430671693df90192bbee57108b6.zip",
+          "https://github.com/google/googletest/archive/9816b96a6ddc0430671693df90192bbee57108b6.zip",
         ],
-        "sha256" : "e178a25c52efcb6b05988bdbeace4c0d3f2d2fe5b46696d1d9898875c3803d6a",
-        "strip_prefix" : "protobuf-b04e5cba356212e4e8c66c61bbe0c3a20537c5b9",
+      "sha256" : "9cbca84c4256bed17df2c8f4d00c912c19d247c11c9ba6647cd6dd5b5c996b8d",
+      "strip_prefix" : "googletest-9816b96a6ddc0430671693df90192bbee57108b6",
     },
 
 }
