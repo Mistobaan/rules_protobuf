@@ -86,9 +86,12 @@ DEPS = {
     # GTest is for our own internal cc tests.
     "com_google_googletest": {
         "rule": "http_archive",
-        "url": "https://github.com/google/googletest/archive/7c6353d29a147cad1c904bf2957fd4ca2befe135.zip", # master Sept 1 2017
-        "sha256": "f87029f647276734ef076785f76652347993b6d13ac1cbb2d2e976e16d2f8137",
-        "strip_prefix": "googletest-7c6353d29a147cad1c904bf2957fd4ca2befe135",
+        "urls" : [
+          "https://mirror.bazel.build/github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
+          "https://github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
+        ],
+        "sha256" : "e178a25c52efcb6b05988bdbeace4c0d3f2d2fe5b46696d1d9898875c3803d6a",
+        "strip_prefix" : "protobuf-b04e5cba356212e4e8c66c61bbe0c3a20537c5b9",
     },
 
 }
