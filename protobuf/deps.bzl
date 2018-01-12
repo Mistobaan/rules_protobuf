@@ -6,11 +6,10 @@ DEPS = {
     "com_google_protobuf": {
         "rule": "http_archive",
         "urls" : [
-            "https://mirror.bazel.build/github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
-            "https://github.com/google/protobuf/archive/b04e5cba356212e4e8c66c61bbe0c3a20537c5b9.tar.gz",
+            "http://mirror.bazel.build/github.com/google/protobuf/archive/0b059a3d8a8f8aa40dde7bea55edca4ec5dfea66.tar.gz",
         ],
-        "sha256": "e178a25c52efcb6b05988bdbeace4c0d3f2d2fe5b46696d1d9898875c3803d6a",
-        "strip_prefix":  "protobuf-b04e5cba356212e4e8c66c61bbe0c3a20537c5b9",
+        "sha256" : "6d43b9d223ce09e5d4ce8b0060cb8a7513577a35a64c7e3dad10f0703bf3ad93",
+        "strip_prefix" : "protobuf-0b059a3d8a8f8aa40dde7bea55edca4ec5dfea66",
     },
 
     # This binds the cc_binary "protoc" into
